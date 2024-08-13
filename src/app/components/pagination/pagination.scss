@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  border-bottom: 1px solid #EBEBEB;
+
+  &__item {
+    height: 35px;
+    display: flex;
+    margin-right: 28px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #475467;
+    text-decoration: none;
+
+    &--active {
+      color: #5847F1;
+      border-bottom: 2px solid #5847F1;
+    }
+  }
+}
